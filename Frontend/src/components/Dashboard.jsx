@@ -21,7 +21,7 @@ const Dashboard = () => {
     }
 
     axios
-      .get("http://localhost:5000/api/events")
+      .get("https://eventsync-0bu4.onrender.com/api/events")
       .then((res) => setEvents(res.data))
       .catch((err) => {
         console.error("Error fetching events:", err);

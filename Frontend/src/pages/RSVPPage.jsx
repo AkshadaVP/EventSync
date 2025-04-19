@@ -9,7 +9,7 @@ const RSVPPage = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/events`)
+      .get(`https://eventsync-0bu4.onrender.com/api/events`)
       .then((res) => {
         const found = res.data.find((e) => e._id === eventId);
         setEvent(found);

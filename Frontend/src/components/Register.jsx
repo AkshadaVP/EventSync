@@ -19,7 +19,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/register", formData); // ✅ corrected URL
+      const res = await axios.post("https://eventsync-0bu4.onrender.com/api/auth/register", formData); // ✅ corrected URL
       const { token, user } = res.data;
 
       // ✅ Store in localStorage

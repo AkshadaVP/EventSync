@@ -46,7 +46,7 @@ const RSVPForm = ({ eventId, onClose }) => {
     if (!validate()) return;
 
     try {
-      await axios.post("http://localhost:5000/api/rsvp/add", {
+      await axios.post("https://eventsync-0bu4.onrender.com/api/rsvp/add", {
         ...formData,
         eventId
       });

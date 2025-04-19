@@ -8,7 +8,7 @@ const RegisteredEvents = () => {
   useEffect(() => {
     const fetchRSVPs = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/rsvp/my-rsvps/${user?.email}`);
+        const res = await axios.get(`https://eventsync-0bu4.onrender.com/api/rsvp/my-rsvps/${user?.email}`);
         setRsvps(res.data);
       } catch (err) {
         console.error("❌ Failed to fetch RSVPs", err);
