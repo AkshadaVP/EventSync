@@ -57,13 +57,11 @@ const Dashboard = () => {
               Seamless Event Management
             </span>
             <h1 className="text-6xl font-bold text-gray-900 md:text-6xl">
-            Simplify Event Registrations & Attendee Management
+            Register and manage your event RSVPs with ease.
             </h1>
             <p className="text-lg leading-relaxed text-gray-600">
               Welcome <span className="font-semibold text-blue-600">{user?.name}</span>! 🎉 <br />
-              From workshops to conferences, our platform helps you track registrations, handle confirmations, and get real-time RSVP insights—all in one place.
-
-
+              Easily register for events, manage RSVPs, and view your registered events—all in one place.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
               <button
