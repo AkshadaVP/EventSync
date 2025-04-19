@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Rsvp = require("../models/RSVP");
+const Rsvp = require("../models/Rsvp");
 const Event = require("../models/event");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
